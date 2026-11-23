@@ -28,18 +28,21 @@ nav a {
 
 }
 
-body{
- 
-   font-family:  Inter, sans-serif;
-   line-height: 1.7;
-  color: #3b2a1c;
-
-
+nav a:hover {
+  background-color: #b58863;
+  color: white;
 }
 
 .logo {
   font-family: 'Playfair Display', serif;
   font-size: 1.6rem;
+}
+
+body{
+ 
+   font-family:  Inter, sans-serif;
+   line-height: 1.7;
+  color: #3b2a1c;
 }
 
 .hero{
@@ -80,6 +83,12 @@ body{
   transform: scale(1.06);
 }
 
+.section-title {
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+}
 .ratings {
   padding: 70px 40px;
 }
@@ -109,13 +118,6 @@ body{
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
-}
-
-.section-title {
-  margin-bottom: 30px;
-  text-align: center;
-  font-family: 'Playfair Display', serif;
-  font-size: 2.2rem;
 }
 
 footer {

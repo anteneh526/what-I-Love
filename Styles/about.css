@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;600;700&display=swap');
-
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    }
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
 header{
   display:flex;
   justify-content:space-between;
@@ -26,4 +26,91 @@ nav a {
   text-decoration: none;
   border-radius: 6px;
 
+}
+
+nav a:hover {
+  background-color: #b58863;
+  color: white;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+}
+
+body{
+ 
+   font-family:  Inter, sans-serif;
+   line-height: 1.7;
+  color: #3b2a1c;
+}
+
+.story {
+    max-width: 900px;
+    margin: 20px auto;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: justify;
+    color: #5a4635;
+}
+
+.why {
+    max-width: 700px;
+    margin: 30px auto;
+    list-style: none;
+}
+
+.why li {
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    background-color: #f3ece4;
+    border-left: 4px solid #b58863;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    transition: transform 0.3s ease;
+}
+
+
+.favorite-players {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.favorite-players h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+}
+
+
+.player-row {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.player-card {
+    width: 280px;
+    background-color: #f3ece4;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #b58863;
+    transition: transform 0.3s ease;
+}
+
+
+.player-card img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+
+.player-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    margin: 15px 10px;
 }
