@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;600;700&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  position:sticky;
+  top:0px;
+  z-index: 100;
+  padding:20px 40px;
+  border-bottom: 4px solid #b58863;
+  background-color:#ffffff;
+
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #3b2a1c;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 6px;
+
+}
+
+body{
+ 
+   font-family:  Inter, sans-serif;
+   line-height: 1.7;
+  color: #3b2a1c;
+
+
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+}
+
+.hero{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  height: 85vh;
+   background-image: url(/Images/BG_faded.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.hero h2 {
+  margin-bottom: 14px;
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  line-height: 1.1;
+  font-weight: 800;
+}
+
+.hero p {
+  margin-bottom: 24px;
+  font-size: 2rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 14px 32px;
+  background-color: #4d3623;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+.button:hover {
+  transform: scale(1.06);
+}
+
+.ratings {
+  padding: 70px 40px;
+}
+
+.card {
+  width: 280px;
+  padding: 30px;
+  border: 2px solid #3b2a1c;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+
+.card p {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.section-title {
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+}
+
+footer {
+  padding: 28px;
+  text-align: center;
+  border-top: 4px solid #b58863;
+}

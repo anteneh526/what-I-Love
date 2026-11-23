@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    }
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  position:sticky;
+  top:0px;
+  z-index: 100;
+  padding:20px 40px;
+  border-bottom: 4px solid #b58863;
+  background-color:#ffffff;
+
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #3b2a1c;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 6px;
+
+}
